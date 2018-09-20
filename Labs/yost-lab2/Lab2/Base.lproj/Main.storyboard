@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wOz-Iu-HP5">
+                                <rect key="frame" x="65.5" y="301" width="189" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Emotion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jup-aT-Tq6">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ptb-OX-xQW">
+                                        <rect key="frame" x="140" y="0.0" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="changeImage:" destination="BYZ-38-t0r" eventType="valueChanged" id="3J7-AN-Md3"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xxu-nL-JHN">
+                                <rect key="frame" x="22.5" y="420" width="275" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POA-cU-zbd">
+                                        <rect key="frame" x="0.0" y="0.0" width="17.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="16" minValue="14" maxValue="28" translatesAutoresizingMaskIntoConstraints="NO" id="PLQ-D6-bzG">
+                                        <rect key="frame" x="25.5" y="0.0" width="251.5" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="aQ6-Fu-Yo8"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="changeTextSize:" destination="BYZ-38-t0r" eventType="valueChanged" id="g6y-0e-MDU"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="PLQ-D6-bzG" firstAttribute="leading" secondItem="POA-cU-zbd" secondAttribute="trailing" constant="10" id="2mE-k0-t2q"/>
+                                    <constraint firstAttribute="width" constant="275" id="IeK-Qg-m3X"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="X61-yk-00C">
+                                <rect key="frame" x="85" y="40" width="150" height="231"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8s-zL-FC2">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="23.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="The Emoji App">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="Futura-Medium"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smile" translatesAutoresizingMaskIntoConstraints="NO" id="bcC-KQ-AEF">
+                                        <rect key="frame" x="0.0" y="28.5" width="150" height="175"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="175" id="4ci-S2-TVZ"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="175" id="D64-eQ-jtt"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="Vm5-ul-9L2">
+                                                <variation key="heightClass=compact-widthClass=compact" constant="120"/>
+                                            </constraint>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="YqU-MS-VEH">
+                                                <variation key="heightClass=compact-widthClass=compact" constant="120"/>
+                                            </constraint>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Vm5-ul-9L2"/>
+                                                <exclude reference="YqU-MS-VEH"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=compact">
+                                            <mask key="constraints">
+                                                <exclude reference="4ci-S2-TVZ"/>
+                                                <exclude reference="D64-eQ-jtt"/>
+                                                <include reference="Vm5-ul-9L2"/>
+                                                <include reference="YqU-MS-VEH"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DC2-Tr-Cp6">
+                                        <rect key="frame" x="0.0" y="208.5" width="150" height="22.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="happy">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="Futura-Medium"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="OXz-Kj-UJ2"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="250" id="jPP-4V-c5f"/>
+                                </constraints>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="OXz-Kj-UJ2"/>
+                                        <exclude reference="jPP-4V-c5f"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eJY-0c-fZs">
+                                <rect key="frame" x="46.5" y="362" width="227" height="29"/>
+                                <segments>
+                                    <segment title="no caps"/>
+                                    <segment title="Mixed"/>
+                                    <segment title="ALL CAPS"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeCaps:" destination="BYZ-38-t0r" eventType="valueChanged" id="1Wl-AI-l3d"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eJY-0c-fZs" firstAttribute="top" secondItem="X61-yk-00C" secondAttribute="bottom" constant="10" id="2I4-FL-lz6"/>
+                            <constraint firstItem="eJY-0c-fZs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Sm-kg-E9w"/>
+                            <constraint firstItem="X61-yk-00C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="5TJ-0k-vwu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="xxu-nL-JHN" secondAttribute="bottom" constant="15" id="8NS-FE-040"/>
+                            <constraint firstItem="xxu-nL-JHN" firstAttribute="top" secondItem="eJY-0c-fZs" secondAttribute="bottom" constant="35.5" id="Ahj-cc-LPg">
+                                <variation key="heightClass=compact-widthClass=compact" constant="5"/>
+                            </constraint>
+                            <constraint firstItem="xxu-nL-JHN" firstAttribute="top" secondItem="eJY-0c-fZs" secondAttribute="bottom" constant="30" id="KZ3-jv-svI"/>
+                            <constraint firstItem="wOz-Iu-HP5" firstAttribute="top" secondItem="X61-yk-00C" secondAttribute="bottom" constant="-3" id="KtH-Zw-fy6">
+                                <variation key="heightClass=compact-widthClass=compact" constant="5"/>
+                            </constraint>
+                            <constraint firstItem="X61-yk-00C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QyK-xW-atF"/>
+                            <constraint firstItem="wOz-Iu-HP5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Stj-fp-YFs"/>
+                            <constraint firstItem="xxu-nL-JHN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZAr-QQ-92B"/>
+                            <constraint firstItem="eJY-0c-fZs" firstAttribute="top" secondItem="wOz-Iu-HP5" secondAttribute="bottom" constant="20" id="cYj-em-GPn">
+                                <variation key="heightClass=compact-widthClass=compact" constant="5"/>
+                            </constraint>
+                            <constraint firstItem="X61-yk-00C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="gn6-Rk-oCI"/>
+                            <constraint firstItem="eJY-0c-fZs" firstAttribute="top" secondItem="wOz-Iu-HP5" secondAttribute="bottom" constant="30" id="lFI-tJ-UXi"/>
+                            <constraint firstItem="wOz-Iu-HP5" firstAttribute="top" secondItem="X61-yk-00C" secondAttribute="bottom" constant="30" id="xch-bn-8dd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5TJ-0k-vwu"/>
+                                <exclude reference="KtH-Zw-fy6"/>
+                                <exclude reference="2I4-FL-lz6"/>
+                                <exclude reference="cYj-em-GPn"/>
+                                <exclude reference="Ahj-cc-LPg"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="5TJ-0k-vwu"/>
+                                <exclude reference="gn6-Rk-oCI"/>
+                                <include reference="KtH-Zw-fy6"/>
+                                <exclude reference="xch-bn-8dd"/>
+                                <exclude reference="2I4-FL-lz6"/>
+                                <include reference="cYj-em-GPn"/>
+                                <exclude reference="lFI-tJ-UXi"/>
+                                <include reference="Ahj-cc-LPg"/>
+                                <exclude reference="KZ3-jv-svI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="emojiImage" destination="bcC-KQ-AEF" id="XPG-TR-QW1"/>
+                        <outlet property="imageCaption" destination="DC2-Tr-Cp6" id="lSy-Rd-GS1"/>
+                        <outlet property="imageSwitch" destination="ptb-OX-xQW" id="S10-Vi-yfF"/>
+                        <outlet property="switchLabel" destination="jup-aT-Tq6" id="C7z-x7-LBc"/>
+                        <outlet property="textControl" destination="eJY-0c-fZs" id="Uri-61-5bW"/>
+                        <outlet property="textSize" destination="POA-cU-zbd" id="nAA-9p-4uZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71.25" y="37.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="smile" width="601" height="600"/>
+    </resources>
+</document>
