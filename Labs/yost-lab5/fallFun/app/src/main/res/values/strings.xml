@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">fallFun</string>
+    <string name="text_fill">Favorite Fall Activity</string>
+    <string name="button_label">Create Message</string>
+</resources>
