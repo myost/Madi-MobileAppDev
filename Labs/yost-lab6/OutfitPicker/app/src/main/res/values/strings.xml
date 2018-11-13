@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Outfit Picker</string>
+    <string name="heading">Find the ideal outfit</string>
+    <string name="toggle_on">Casual</string>
+    <string name="toggle_off">Formal</string>
+    <string-array name="seasons">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+    </string-array>
+    <string name="city">City</string>
+    <string name="small_town">Small Town</string>
+    <string name="cold">&#60;45&#176;</string>
+    <string name="medium">45&#176;-60&#176;</string>
+    <string name="hot">&#62;60&#176;</string>
+    <string name="buttonText">Find</string>
+</resources>
