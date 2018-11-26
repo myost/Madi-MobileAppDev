@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ornament Finder</string>
+    <string name="title">Christmas Ornament Finder</string>
+    <string name="ornament_type">Choose your style</string>
+    <string name="button">Find Ornament</string>
+    <string-array name="style">
+        <item>Classy</item>
+        <item>Retro</item>
+        <item>Natural</item>
+        <item>Cheesy</item>
+    </string-array>
+    <string name="ornament_image">green ornament</string>
+    <string name="URLbutton">Buy Ornament</string>
+</resources>
