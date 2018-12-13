@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ChristmasCountdown</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="countdown_tagline">Until Christmas!</string>
+    <string name="days_label">days</string>
+    <string name="hours_label">hours</string>
+    <string name="min_label">minutes</string>
+    <string name="sec_label">seconds</string>
+    <string name="quote_button">Next Quote</string>
+    <string-array name="quotes">
+        <item>\"Seeing is believing, but sometimes the most real things in the world are the things we can\'t see.\" \n- The Polar Express</item>
+        <item>\"The best way to spread Christmas cheer is singing loud for all to hear\" \n- Elf</item>
+        <item>\"Christmas was on its way. Lovely, glorious, beautiful Christmas, upon which the entire kid year revolved.\" \n- A Christmas Story</item>
+        <item>\"Maybe Christmas, he thought… doesn\'t come from a store. Maybe Christmas, perhaps… means a little bit more!\" \n- How the Grinch Stole Christmas</item>
+        <item>\"Christmas isn\'t just a day, it\'s a frame of mind and that\'s what\'s been changing.\" \n- Miracle on 34th Street</item>
+        <item>\"Yes! Yes I do! I like Christmas! I love Christmas!\" \n- A Christmas Carol</item>
+        <item>\"I will honor Christmas in my heart, and try to keep it alive all the year." \n- A Christmas Carol</item>
+        <item>\"You\'re skipping Christmas! Isn\'t that against the Law?\" \n- Christmas with the Kranks</item>
+        <item>\"Merry Christmas, movie house! Merry Christmas, Emporium! Merry Christmas, you wonderful old Building and Loan!\" \n- It\'s a Wonderful Life</item>
+        <item>\"It\'s all HUMBUG, I tell you. HUMBUG!\" \n- Scrooge</item>
+        <item>\"We elves try to stick to the four main food groups: candy, candy canes, candy corns, and syrup.\" \n- Elf</item>
+        <item>\"Okay, this is extremely important. Will you please tell Santa that instead of presents this year, I just want my family back?\" \n- Home Alone</item>
+        <item>\"I never thought it was such a bad tree. It\'s not a bad tree at all, really. Maybe it just needs a little love\" \n- A Charlie Brown Christmas</item>
+        <item>\"Teacher says, every time a bell rings an angel gets his wings\" \n- It\'s a Wonderful Life</item>
+        <item>\"I want an official Red Ryder, carbine action, two-hundred shot range model air rifle!\" \n- A Christmas Story</item>
+        <item>\"You have such a pretty face, you should be on a Christmas card.\" \n- Elf</item>
+        <item>\"Isn\'t there anyone who knows what Christmas is all about?\" \n- A Charlie Brown Christmas</item>
+        <item>\"Faith is believing things when common sense tells you not to.\" \n- Miracle on 34th Street</item>
+        <item>\"Blast this Christmas music. It\'s joyful and triumphant.\" \n- How the Grinch Stole Christmas</item>
+        <item>\"Just remember, the true spirit of Christmas lies in your heart.\" \n- The Polar Express</item>
+        <item>\"A sequel: That\'s it. We\'ll bring it out on March 25, and we\'ll call it… Christmas 2!\" \n- Santa Claus: The Movie</item>
+        <item>\"One can never have enough socks. Another Christmas has come and gone and I didn\'t get a single pair. People will insist on giving me books.\" \n- Harry Potter and the Sorcerer\'s Stone</item>
+        <item>\"It was the beginning of the greatest Christmas ever. Little food. No presents. But there was a snowman in their basement.\" \n- The Book Thief</item>
+        <item>\"What I\'m trying to say is, Rudolph, with your nose so bright, won\'t you guide my sleigh tonight?\" \n- Rudolph the Red-Nosed Reindeer</item>
+        <item>\"Happy Birthday! Hey, I said my first words. But… snowmen can\'t talk\" \n- Frosty the Snowman</item>
+        <item>\"For it was the first snow of the season. And as any child can tell you, there\'s a certain magic to the very first snow. Especially when it falls on the day before Christmas.\" \n- Frosty the Snowman</item>
+        <item>\"Twas the night before Christmas when all through the house not a creature was stirring, not even a mouse\" \n- The Night Before Christmas</item>
+        <item>\"Though I\'ve grown old, the bell still rings for me, as it does for all who truly believe.\" \n- The Polar Express</item>
+        <item>\"It\'s too early. I never eat December snowflakes. I always wait until January.\" \n- A Charlie Brown Christmas</item>
+        <item>\"It\'s Christmas Eve. It\'s the one night of the year when we all act a little nicer, we smile a little easier, we cheer a little more.\" \n- Scrooge</item>
+    </string-array>
+</resources>

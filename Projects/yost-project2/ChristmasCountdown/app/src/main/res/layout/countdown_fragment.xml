@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/countdown_tagline"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minLabel" />
+
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="200"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="96sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/daysLabel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/minutes"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/minutes" />
+
+    <TextView
+        android:id="@+id/minutes"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/seconds"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/hours"
+        app:layout_constraintTop_toBottomOf="@+id/days" />
+
+    <TextView
+        android:id="@+id/seconds"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/minutes"
+        app:layout_constraintTop_toTopOf="@+id/minutes" />
+
+    <TextView
+        android:id="@+id/hrsLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="casual"
+        android:text="@string/hours_label"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/secondaryDarkColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/minLabel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/minLabel" />
+
+    <TextView
+        android:id="@+id/minLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/min_label"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/secondaryDarkColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/secsLabel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/hrsLabel"
+        app:layout_constraintTop_toBottomOf="@+id/minutes" />
+
+    <TextView
+        android:id="@+id/secsLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="casual"
+        android:text="@string/sec_label"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/secondaryDarkColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/minLabel"
+        app:layout_constraintTop_toTopOf="@+id/minLabel" />
+
+    <TextView
+        android:id="@+id/daysLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="casual"
+        android:text="@string/days_label"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/secondaryDarkColor"
+        android:textSize="60sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/days"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/days" />
+</android.support.constraint.ConstraintLayout>
