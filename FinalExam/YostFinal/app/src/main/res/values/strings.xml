@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Yost Final</string>
+    <string name="title">Create Your Pizza</string>
+    <string name="radio_group">Crust type:</string>
+    <string name="thin_crust">Thin</string>
+    <string name="thick_crust">Thick</string>
+    <string name="size_label">Pizza Size:</string>
+    <string-array name="size">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string name="toppings">Pizza Toppings:</string>
+    <string name="cheese">Cheese</string>
+    <string name="veggie">Veggie</string>
+    <string name="meat">Meat</string>
+    <string name="supreme">Supreme</string>
+    <string name="gf">Gluten Free</string>
+    <string name="ngf">Gluten Full</string>
+    <string name="create_button">Create Pizza</string>
+    <string name="find_button">Find Pizzeria</string>
+    <string name="pizzaImg">photo of a pizza</string>
+    <string name="image_button">click to go to pizzeria website</string>
+</resources>
