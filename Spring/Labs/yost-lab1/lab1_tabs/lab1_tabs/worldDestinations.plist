@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>continent</key>
+		<string>Africa</string>
+		<key>cities</key>
+		<array>
+			<string>Cairo</string>
+			<string>Cape Town</string>
+			<string>Casablanca</string>
+			<string>Lagos</string>
+			<string>Nairobi</string>
+		</array>
+	</dict>
+	<dict>
+		<key>continent</key>
+		<string>Antartica</string>
+		<key>cities</key>
+		<array>
+			<string>Amundsen-Scott Research Station</string>
+			<string>McMurdo Station</string>
+			<string>Port Lockroy</string>
+		</array>
+	</dict>
+	<dict>
+		<key>continent</key>
+		<string>Asia</string>
+		<key>cities</key>
+		<array>
+			<string>Beijing</string>
+			<string>Hong Kong</string>
+			<string>New Delhi</string>
+			<string>Phuket</string>
+			<string>Tokyo</string>
+		</array>
+	</dict>
+	<dict>
+		<key>continent</key>
+		<string>Australia</string>
+		<key>cities</key>
+		<array>
+			<string>Adelaide</string>
+			<string>Melbourne</string>
+			<string>Perth</string>
+			<string>Sydney</string>
+		</array>
+	</dict>
+	<dict>
+		<key>continent</key>
+		<string>Europe</string>
+		<key>cities</key>
+		<array>
+			<string>Amsterdam</string>
+			<string>Barcelona</string>
+			<string>London</string>
+			<string>Paris</string>
+			<string>Rome</string>
+		</array>
+	</dict>
+	<dict>
+		<key>continent</key>
+		<string>North America</string>
+		<key>cities</key>
+		<array>
+			<string>Cancun</string>
+			<string>New York</string>
+			<string>Roatan</string>
+			<string>San Fransisco</string>
+			<string>Toronto</string>
+		</array>
+	</dict>
+	<dict>
+		<key>continent</key>
+		<string>South America</string>
+		<key>cities</key>
+		<array>
+			<string>Buenos Aires</string>
+			<string>Lima</string>
+			<string>Rio de Janeiro</string>
+			<string>Santiago</string>
+		</array>
+	</dict>
+</array>
+</plist>
