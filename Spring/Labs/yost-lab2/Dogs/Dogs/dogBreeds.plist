@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>group</key>
+		<string>Herding</string>
+		<key>breeds</key>
+		<array>
+			<string>Australian Shepherd</string>
+			<string>Border Collie</string>
+			<string>Collie</string>
+			<string>German Shepherd Dog</string>
+			<string>Pembroke Welsh Corgi</string>
+			<string>Shetland Sheepdog</string>
+		</array>
+	</dict>
+	<dict>
+		<key>group</key>
+		<string>Hound</string>
+		<key>breeds</key>
+		<array>
+			<string>Afghan Hound</string>
+			<string>Basenji</string>
+			<string>Bloodhound</string>
+			<string>Greyhound</string>
+			<string>Scottish Deerhound</string>
+		</array>
+	</dict>
+	<dict>
+		<key>group</key>
+		<string>Toy</string>
+		<key>breeds</key>
+		<array>
+			<string>Chihuahua</string>
+			<string>Japanese Chin</string>
+			<string>Pomeranian</string>
+			<string>Shih Tzu</string>
+		</array>
+	</dict>
+	<dict>
+		<key>group</key>
+		<string>Non-Sporting</string>
+		<key>breeds</key>
+		<array>
+			<string>Bichon Frise</string>
+			<string>Dalmatian</string>
+			<string>French Bulldog</string>
+			<string>Poodle</string>
+		</array>
+	</dict>
+	<dict>
+		<key>group</key>
+		<string>Sporting</string>
+		<key>breeds</key>
+		<array>
+			<string>Brittany</string>
+			<string>Cocker Spaniel</string>
+			<string>Golden Retriever</string>
+			<string>Irish Setter</string>
+			<string>Pointer</string>
+			<string>Vizsla</string>
+			<string>Welsh Springer Spaniel</string>
+		</array>
+	</dict>
+	<dict>
+		<key>group</key>
+		<string>Terrier</string>
+		<key>breeds</key>
+		<array>
+			<string>Airedale Terrier</string>
+			<string>Bull Terrier</string>
+			<string>Cairn Terrier</string>
+			<string>Irish Setter</string>
+			<string>Rat Terrier</string>
+			<string>Scottish Terrier</string>
+		</array>
+	</dict>
+	<dict>
+		<key>group</key>
+		<string>Working</string>
+		<key>breeds</key>
+		<array>
+			<string>Alaskan Malamute</string>
+			<string>Doberman Pinscher</string>
+			<string>Komondor</string>
+			<string>Mastiff</string>
+			<string>St Bernard</string>
+		</array>
+	</dict>
+</array>
+</plist>

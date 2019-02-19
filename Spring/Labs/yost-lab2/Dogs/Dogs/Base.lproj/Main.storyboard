@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5pl-Na-rJQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Groups-->
+        <scene sceneID="ggH-zH-mdL">
+            <objects>
+                <tableViewController title="Groups" id="R1R-2o-BBw" customClass="GroupTableViewController" customModule="Dogs" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="C9W-wh-HfQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="GroupIdentifier" id="wtQ-Py-Rwb">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wtQ-Py-Rwb" id="bzF-v5-svq">
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="8D2-y4-65q" kind="show" identifier="breedsegue" id="jGz-lx-PbI"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="R1R-2o-BBw" id="OUD-Pp-Bk6"/>
+                            <outlet property="delegate" destination="R1R-2o-BBw" id="3h7-ae-GMV"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Groups" id="AFj-q7-W2D"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9wW-rv-Ob2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040.8" y="66.11694152923539"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="XWg-Jo-qrI">
+            <objects>
+                <tableViewController id="8D2-y4-65q" customClass="DetailTableViewController" customModule="Dogs" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="GcQ-1x-mPZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GroupIdentifier" id="SIc-9b-Jga">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SIc-9b-Jga" id="Mut-nb-iNN">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8D2-y4-65q" id="lzN-8g-B12"/>
+                            <outlet property="delegate" destination="8D2-y4-65q" id="OEP-p1-Euy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="n2Q-po-UPD">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Bpg-OX-MM9">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="SNm-Eg-Jt5" kind="presentation" id="GPb-BN-vy8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cCU-b0-hoz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1916" y="61"/>
+        </scene>
+        <!--Add Breed View Controller-->
+        <scene sceneID="54q-Ua-ZHi">
+            <objects>
+                <viewController id="SNm-Eg-Jt5" customClass="AddBreedViewController" customModule="Dogs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IoF-qH-Vtv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="DUp-YB-V02">
+                                <rect key="frame" x="16" y="114" width="343" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Breed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blI-8I-ZUD">
+                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zv0-Pb-BzQ">
+                                        <rect key="frame" x="113.5" y="0.0" width="229.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textFieldDoneEditing:" destination="SNm-Eg-Jt5" eventType="editingDidEndOnExit" id="Pzr-iQ-wSu"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ugi-P6-dbW">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <navigationItem title="Add New Breed" id="711-7d-hFx">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="avL-Rl-jXy">
+                                            <connections>
+                                                <segue destination="ZdH-Nh-dnq" kind="unwind" identifier="cancelsegue" unwindAction="unwindSegue:" id="WTp-ca-0Yf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="Ahd-C7-zSD">
+                                            <connections>
+                                                <segue destination="ZdH-Nh-dnq" kind="unwind" identifier="donesegue" unwindAction="unwindSegue:" id="dDz-uo-k7Z"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="DUp-YB-V02" firstAttribute="leading" secondItem="keb-Ny-4nY" secondAttribute="leading" constant="16" id="3bn-Xz-mcF"/>
+                            <constraint firstItem="keb-Ny-4nY" firstAttribute="trailing" secondItem="DUp-YB-V02" secondAttribute="trailing" constant="16" id="9Kg-Qe-dRc"/>
+                            <constraint firstItem="Ugi-P6-dbW" firstAttribute="trailing" secondItem="keb-Ny-4nY" secondAttribute="trailing" id="JqR-hT-8RB"/>
+                            <constraint firstItem="DUp-YB-V02" firstAttribute="centerX" secondItem="IoF-qH-Vtv" secondAttribute="centerX" id="Tju-aj-LTj"/>
+                            <constraint firstItem="Ugi-P6-dbW" firstAttribute="top" secondItem="keb-Ny-4nY" secondAttribute="top" id="gb4-X4-sxn"/>
+                            <constraint firstItem="DUp-YB-V02" firstAttribute="top" secondItem="Ugi-P6-dbW" secondAttribute="bottom" constant="50" id="uNP-NW-X9s"/>
+                            <constraint firstItem="Ugi-P6-dbW" firstAttribute="leading" secondItem="keb-Ny-4nY" secondAttribute="leading" id="xBh-8S-Sep"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="keb-Ny-4nY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="0ub-1K-uaW" appends="YES" id="rQQ-Fp-zLO"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="breedTextField" destination="zv0-Pb-BzQ" id="nOm-vR-a26"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="78v-WB-qLo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ZdH-Nh-dnq" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="0ub-1K-uaW">
+                    <connections>
+                        <action selector="onTapGestureREcognized:" destination="SNm-Eg-Jt5" id="htJ-A0-HRF"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2665" y="61"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ea1-Vv-wHe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5pl-Na-rJQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="r9p-Se-pHC">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.75294117650000003" green="0.39607843139999999" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="R1R-2o-BBw" kind="relationship" relationship="rootViewController" id="tzN-Hc-yZy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ph-vi-s4W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.59999999999999" y="66.11694152923539"/>
+        </scene>
+    </scenes>
+</document>
