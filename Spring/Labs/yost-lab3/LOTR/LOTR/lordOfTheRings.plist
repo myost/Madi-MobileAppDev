@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Aragorn</string>
+		<key>description</key>
+		<string>Aragorn was a Ranger of the North, first introduced with the name Strider at Bree. He was eventually revealed to be the heir of Isildur and rightful claimant to the thrones of Arnor and Gondor. He was also a confidant of Gandalf and an integral part of the quest to destroy the One Ring and defeat the Dark Lord Sauron.</string>
+		<key>race</key>
+		<string>Man</string>
+		<key>status</key>
+		<string>Protagonist</string>
+		<key>image</key>
+		<string>aragorn.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bilbo Baggins</string>
+		<key>description</key>
+		<string>Bilbo Baggins was hired as a &quot;burglar&quot; –despite his initial objections– by the wizard Gandalf and 13 Dwarves, in their quest to reclaim the Lonely Mountain from the dragon Smaug. Bilbo saves a magic ring from his adventure for safekeeping and adopts Frodo making him his heir.</string>
+		<key>race</key>
+		<string>Hobbit</string>
+		<key>status</key>
+		<string>Protagonist</string>
+		<key>image</key>
+		<string>bilbo.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Frodo Baggins</string>
+		<key>description</key>
+		<string>Frodo is a hobbit of the Shire who inherits the One Ring from his cousin (referred to as his uncle) Bilbo Baggins and undertakes the quest to destroy it in the fires of Mount Doom.</string>
+		<key>race</key>
+		<string>Hobbit</string>
+		<key>status</key>
+		<string>Protagonist</string>
+		<key>image</key>
+		<string>frodo.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gandalf</string>
+		<key>description</key>
+		<string>Gandalf is a wizard, member of the Istari order, as well as leader of the Fellowship of the Ring and the army of the West. He is initially known as Gandalf the Grey, but returns from death as Gandalf the White.</string>
+		<key>race</key>
+		<string>Istari</string>
+		<key>status</key>
+		<string>Protagonist</string>
+		<key>image</key>
+		<string>gandalf.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gimli</string>
+		<key>description</key>
+		<string>A dwarf warrior, he is the son of Glóin. Gimli is chosen to represent the race of Dwarves in the Fellowship of the Ring. Gimli aids the Ring-bearer Frodo Baggins, participates in the War of the Ring, and becomes close friends with Legolas, overcoming an ancient enmity of Dwarves and Elves.</string>
+		<key>race</key>
+		<string>Dwarf</string>
+		<key>status</key>
+		<string>Protagonist</string>
+		<key>image</key>
+		<string>gimli.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gollum</string>
+		<key>description</key>
+		<string>Gollum was a Stoor Hobbit of the River-folk, who lived near the Gladden Fields. Originally known as Sméagol, he was corrupted by the One Ring and later named Gollum after his habit of making &quot;a horrible swallowing noise in his throat&quot;.</string>
+		<key>race</key>
+		<string>Hobbit</string>
+		<key>status</key>
+		<string>Antagonist</string>
+		<key>image</key>
+		<string>gollum.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Legolas</string>
+		<key>description</key>
+		<string>Legolas was the son of Thranduil, King of the Woodland Realm of Northern Mirkwood. Legolas was chosen to be a member of the Fellowship of the Ring, charged with destroying the One Ring. He accompanied the other members in their travels from Rivendell to Amon Hen, serving as the company&apos;s archer.</string>
+		<key>race</key>
+		<string>Elf</string>
+		<key>status</key>
+		<string>Protagonist</string>
+		<key>image</key>
+		<string>legolas.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Samwise Gamgee</string>
+		<key>description</key>
+		<string>Sam is Frodo&apos;s gardener, and is drawn into Frodo&apos;s adventure by Gandalf while eavesdropping on a private conversation. Sam is Frodo&apos;s steadfast companion and servant in his quest to destroy the One Ring.</string>
+		<key>race</key>
+		<string>Hobbit</string>
+		<key>status</key>
+		<string>Protagonist</string>
+		<key>image</key>
+		<string>samwise.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Saruman</string>
+		<key>description</key>
+		<string>He is leader of the Istari, wizards sent to Middle-earth in human form by the godlike Valar to challenge Sauron, the main antagonist of the novel, but eventually he desires Sauron&apos;s power for himself and tries to take over Middle-earth by force.</string>
+		<key>race</key>
+		<string>Istari</string>
+		<key>status</key>
+		<string>Antagonist</string>
+		<key>image</key>
+		<string>saruman.jpg</string>
+	</dict>
+</array>
+</plist>
