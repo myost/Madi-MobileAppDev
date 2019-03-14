@@ -105,7 +105,7 @@
                                                 <segue destination="Quc-eb-8e2" kind="unwind" identifier="cancelsegue" unwindAction="unwindSegueWithSegue:" id="Btz-8P-iB4"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="LYT-Qj-OFc">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="LYT-Qj-OFc">
                                             <connections>
                                                 <segue destination="Quc-eb-8e2" kind="unwind" identifier="donesegue" unwindAction="unwindSegueWithSegue:" id="qpn-BW-l93"/>
                                             </connections>
