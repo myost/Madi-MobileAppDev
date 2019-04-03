@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">World Travel</string>
+    <string name="globe">Globe</string>
+    <string name="continent_image">Continent Image</string>
+    <string name="explore">Explore</string>
+    <string name="action_settings">Settings</string>
+</resources>
