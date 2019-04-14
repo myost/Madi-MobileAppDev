@@ -1,0 +1,27 @@
+<dogs>
+	<dog>
+		<name>Golden Retriever</name>
+		<descr>Goldens are athletic, strong and capable of carrying heavy game over land and water, using a broad, powerful head with strong neck and well-developed fore and hindquarters. The breed is slightly longer than tall, with a smooth, powerful, ground-covering gait, and dense, straight or wavy outer water-repellent coat.</descr>
+		<img>golden</img>
+	</dog>
+	<dog>
+		<name>Bichon Frise</name>
+		<descr>The striking powder-puff appearance of the Bichon derives from a double coat, with a soft dense undercoat and coarser, curly outercoat, causing the coat to stand off the body and even spring back when patted. This is a merry, agile breed with an effortless and efficient gait. The Bichon’s looks and fitness make this sturdy little dog a popular family addition. The soft, inquisitive expression enables this breed to worm its way into many hearts and laps.</descr>
+		<img>bichon</img>
+	</dog>
+	<dog>
+		<name>Great Dane</name>
+		<descr>This regal breed combines great size and power with elegance. They are square proportioned and well balanced. The gait is strong and powerful with long, easy strides.  The coat is short, thick, and glossy. The Great Dane is most noteworthy for its majestic carriage and appearance— the Apollo of Dogs.</descr>
+		<img>dane</img>
+	</dog>
+	<dog>
+		<name>Australian Shepherd</name>
+		<descr>This is an athletic dog of medium size and bone; The Australian Shepherd is lithe, agile, and slightly longer than it is tall. This breed is muscular and powerful enough to work all day, without sacrificing the speed and agility. This dog’s gait is free and easy, and must be able to change direction or speed instantly. The double coat is weather resistant, with the outer coat of medium texture and length, straight to wavy. The expression is keen, intelligent, and eager.</descr>
+		<img>australian</img>
+	</dog>
+	<dog>
+		<name>Miniature Poodle</name>
+		<descr>The Poodle is a square-proportioned dog with proud carriage and elegant appearance. They often move with a light, springy, effortless stride. The Poodle breed stems from working retriever origins, and their build reflects their athletic background. Their coat is curly and dense, forming a water resistant barrier.  Poodle often appear active, intelligent, and elegant. They have a proud bearing and air of distinction.</descr>
+		<img>poodle</img>
+	</dog>
+</dogs>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="title_home">Dogs</string>
+    <string name="title_web">Find</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="web_view_fragment">web view fragment</string>
+    <string name="data_list_fragment">data list fragment</string>
+</resources>
