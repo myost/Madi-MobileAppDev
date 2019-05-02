@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Fish Food</string>
+    <string name="title_tank">My Tank</string>
+    <string name="title_feed">Feed</string>
+    <string name="title_shop">PetSmart</string>
+    <string name="fish_image">Illustration of fish</string>
+    <string name="dialog_title">Add A Fish</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="name_label">Name</string>
+    <string name="species_label">Species:</string>
+    <string name="age_label">Age:</string>
+    <string name="feed_label">until next feeding</string>
+    <string name="feed_button">Feed Now</string>
+    <string name="tank_img">Fish tank illustration</string>
+    <string name="feed_fish_dialog">It\'s time to feed your fish!</string>
+    <string-array name="species">
+        <item>Beta</item>
+        <item>Goldfish</item>
+        <item>Guppy</item>
+    </string-array>
+    <string name="birthday_label">Set Date Bought</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
